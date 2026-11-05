@@ -1,0 +1,9 @@
+{
+  "tts": {
+    "espeak": {"voice_map": {"en": "en-us", "hi": "hi", "kn": "kn", "te": "te", "hinglish": "hi"}},
+    "command": {"command": ["piper", "--model", "/path/to/model.onnx", "--output_file", "{out}"], "stdin": true, "natural": false},
+    "voice_clone": {"consent_file": null}
+  },
+  "llm": {"provider": "none"},
+  "transcription": {}
+}

@@ -1,0 +1,12 @@
+{
+  "default_language": "en",
+  "fps": 30,
+  "encoding": {"preset": "veryfast", "crf": 23},
+  "topic_to_video": {
+    "tts": {"provider": "auto"},
+    "research": {"providers": ["wikipedia", "manual"], "manual": {"paths": []}}
+  },
+  "shorts": {
+    "transcription": {"engine": "auto", "model_path": null, "whisper_binary": null, "chunk_s": 600}
+  }
+}
